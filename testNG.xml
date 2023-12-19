@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suite">
+	<listeners>
+		<listener class-name="com.ecommerce.Utilities.E_commerce_ReportingListener"></listener>
+	</listeners>
+	<test name="test">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.ecommerce.TestCases.E_commerce_TC01"></class>
+		</classes>
+	</test>
+</suite>

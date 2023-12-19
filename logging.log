@@ -1,0 +1,42 @@
+2023-12-14 12:11:45 INFO  E_commerce_BaseClass:54 - Browser Ready To Launch
+  2023-12-14 12:11:54 INFO  E_commerce_BaseClass:65 - Chrome Browser Launched Successfully
+  2023-12-14 12:11:54 INFO  E_commerce_BaseClass:66 - Browser Going To Maximize
+  2023-12-14 12:11:54 INFO  E_commerce_BaseClass:69 - Browser Going To Hit Url
+  2023-12-14 12:11:59 INFO  E_commerce_BaseClass:71 - URL Hit Success
+  2023-12-14 12:12:00 INFO  E_commerce_BaseClass:28 - Closing Loginpage
+  2023-12-14 12:12:00 INFO  E_commerce_BaseClass:30 - Searching on SearchBox
+  2023-12-14 12:12:07 INFO  E_commerce_BaseClass:32 - Search Completed
+  2023-12-14 12:12:07 INFO  E_commerce_BaseClass:34 - search brand selected done
+  2023-12-14 12:12:07 INFO  E_commerce_BaseClass:36 - rating selected
+  2023-12-14 12:12:07 INFO  E_commerce_BaseClass:38 - mobile link clicked
+  2023-12-14 12:12:08 INFO  E_commerce_BaseClass:236 - Browser Closed Successfully
+  2023-12-14 12:14:32 INFO  E_commerce_BaseClass:54 - Browser Ready To Launch
+  2023-12-14 12:14:37 INFO  E_commerce_BaseClass:65 - Chrome Browser Launched Successfully
+  2023-12-14 12:14:37 INFO  E_commerce_BaseClass:66 - Browser Going To Maximize
+  2023-12-14 12:14:38 INFO  E_commerce_BaseClass:69 - Browser Going To Hit Url
+  2023-12-14 12:14:43 INFO  E_commerce_BaseClass:71 - URL Hit Success
+  2023-12-14 12:14:45 INFO  E_commerce_BaseClass:28 - Closing Loginpage
+  2023-12-14 12:14:46 INFO  E_commerce_BaseClass:30 - Searching on SearchBox
+  2023-12-14 12:14:52 INFO  E_commerce_BaseClass:32 - Search Completed
+  2023-12-14 12:14:54 INFO  E_commerce_BaseClass:35 - search brand selected done
+  2023-12-14 12:14:56 INFO  E_commerce_BaseClass:38 - rating selected
+  2023-12-14 12:14:58 INFO  E_commerce_BaseClass:41 - mobile link clicked
+  2023-12-14 12:14:59 INFO  E_commerce_BaseClass:236 - Browser Closed Successfully
+  2023-12-17 17:11:12 INFO  E_commerce_BaseClass:54 - Browser Ready To Launch
+  2023-12-17 17:11:20 INFO  E_commerce_BaseClass:65 - Chrome Browser Launched Successfully
+  2023-12-17 17:11:20 INFO  E_commerce_BaseClass:66 - Browser Going To Maximize
+  2023-12-17 17:11:21 INFO  E_commerce_BaseClass:69 - Browser Going To Hit Url
+  2023-12-17 17:11:26 INFO  E_commerce_BaseClass:71 - URL Hit Success
+  2023-12-17 17:11:27 INFO  E_commerce_BaseClass:28 - Closing Loginpage
+  2023-12-17 17:11:28 INFO  E_commerce_BaseClass:30 - Searching on SearchBox
+  2023-12-17 17:11:35 INFO  E_commerce_BaseClass:32 - Search Completed
+  2023-12-17 17:11:37 INFO  E_commerce_BaseClass:35 - search brand selected done
+  2023-12-17 17:11:39 INFO  E_commerce_BaseClass:38 - rating selected
+  2023-12-17 17:11:41 INFO  E_commerce_BaseClass:41 - mobile link clicked
+  2023-12-17 17:11:42 INFO  E_commerce_BaseClass:236 - Browser Closed Successfully
+  2023-12-19 12:10:47 INFO  E_commerce_BaseClass:54 - Browser Ready To Launch
+  2023-12-19 12:11:00 INFO  E_commerce_BaseClass:65 - Chrome Browser Launched Successfully
+  2023-12-19 12:11:00 INFO  E_commerce_BaseClass:66 - Browser Going To Maximize
+  2023-12-19 12:11:00 INFO  E_commerce_BaseClass:69 - Browser Going To Hit Url
+  2023-12-19 12:11:02 INFO  E_commerce_BaseClass:71 - URL Hit Success
+  
