@@ -7,7 +7,7 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="SearchModule_TC" invocation-numbers="0 1 2"/>
+          <include name="E_commerce_Flipkart_TC" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.ecommerce.TestCases.E_commerce_TC01 -->
     </classes>

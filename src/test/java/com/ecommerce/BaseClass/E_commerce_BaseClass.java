@@ -31,8 +31,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
@@ -47,7 +47,7 @@ public class E_commerce_BaseClass {
 	public String chromeLocation=config.getBrowserLocation();
 
 	@Parameters("browser")
-	@BeforeMethod
+	@BeforeSuite
 	public void setUp(@Optional("brow")String browser) {
 		logger=Logger.getLogger(E_commerce_BaseClass.class);
 		PropertyConfigurator.configure("log4j.properties");
@@ -62,22 +62,21 @@ public class E_commerce_BaseClass {
 			driver=new ChromeDriver();
 			break;
 		}
-		logger.info("Chrome Browser Launched Successfully");
-		logger.info("Browser Going To Maximize");
+		logger.info("Chrome Browser Launched");
+		logger.info("Browser Maximized");
 		implicitMethod();
 		maximizeBrowser();
 		logger.info("Browser Going To Hit Url");
-		getUrl();
+		navigateUrl();
 		logger.info("URL Hit Success");
 	}
 	public void implicitMethod() {
+		driver.manage().timeouts().pageLoadTimeout(30,TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 	}
 	public void maximizeBrowser() {
+		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
-	}
-	public void getUrl() {
-		driver.navigate().to(appUrl);
 	}
 	public void type(WebElement webelement,String value) {
 		webelement.sendKeys(value);
@@ -111,36 +110,14 @@ public class E_commerce_BaseClass {
 	}
 	public void moveToElement(WebElement web) {
 		Actions action=new Actions(driver);
-		action.moveToElement(web).build().perform();
+		action.moveToElement(web).click().build().perform();
 	}
 	public void dragToElement(WebElement web1,WebElement web2) {
 		Actions action=new Actions(driver);
 		action.dragAndDrop(web1, web2);
 	}
-	public void keyPress(int keycode) {
-		Robot robot = null;
-		try {
-			robot=new Robot();
-		} catch (AWTException e) {
-			e.printStackTrace();
-			robot.keyPress(keycode);
-		}
-	}
-	public void keyRelease(int keycode) {
-		Robot robot = null;
-		try {
-			robot=new Robot();
-		} catch (AWTException e) {
-			e.printStackTrace();
-			robot.keyRelease(keycode);
-		}
-	}
-	public String randomString(int num) {
-		String randomalpha=RandomStringUtils.randomAlphabetic(num);
-		return randomalpha;
-	}
 	public String randomNumeric(int num) {
-		String randomnumeric=RandomStringUtils.randomAlphanumeric(num);
+		String randomnumeric=RandomStringUtils.randomNumeric(num);
 		return randomnumeric;
 	}
 	public void alertAccept() {
@@ -170,6 +147,11 @@ public class E_commerce_BaseClass {
 		WebDriverWait wait=new WebDriverWait(driver,10);
 		wait.until(ExpectedConditions.elementToBeClickable(web));
 	}
+	public boolean webdriverVisibleWait(WebElement web) {
+		WebDriverWait wait=new WebDriverWait(driver,10);
+		wait.until(ExpectedConditions.visibilityOf(web));
+		return true;
+	}
 	public void webdriverAlertWait() {
 		WebDriverWait wait=new WebDriverWait(driver,10);
 		wait.until(ExpectedConditions.alertIsPresent());
@@ -194,25 +176,20 @@ public class E_commerce_BaseClass {
 		boolean value=webelement.isEnabled();
 		return value;
 	}
-	public void navigateUrl(String url) {
-		driver.navigate().to(url);
-	}
-	public void navigateForward() {
-		driver.navigate().forward();
-	}
-	public void navigateBack() {
-		driver.navigate().back();
+	public void navigateUrl() {
+		driver.navigate().to(appUrl);
 	}
 	public void captureScreenshot1(WebDriver driver,String testname) {
 		String timestamp=new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 		TakesScreenshot ts=(TakesScreenshot) driver;
 		File source=ts.getScreenshotAs(OutputType.FILE);
-		File target=new File(System.getProperty("user.dir")+"/Screenshot/"+timestamp+" "+testname+".png");
+		File target=new File(System.getProperty("user.dir")+"/Screenshot Passed/"+timestamp+" "+testname+".png");
 		try {
 			FileUtils.copyFile(source, target);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		logger.info("Passed Screenshot Captured Success");
 	}
 	public void captureScreenshot2(WebDriver driver,String testname) {
 		Robot robot = null;
@@ -223,15 +200,16 @@ public class E_commerce_BaseClass {
 		}Dimension size=Toolkit.getDefaultToolkit().getScreenSize();
 		Rectangle rec=new Rectangle(size);
 		BufferedImage source=robot.createScreenCapture(rec);
-		File target=new File(System.getProperty("user.dir")+"/Screenshot/"+testname+".png");
+		File target=new File(System.getProperty("user.dir")+"/Screenshot Failed/"+testname+".png");
 		try {
 			ImageIO.write(source,"png",target);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		logger.info("Failed Screenshot Captured Success");
 	}
-	@AfterMethod
-	public void tearDown() {
+	@AfterSuite
+	public void tearDown() throws InterruptedException {
 		driver.quit();
 		logger.info("Browser Closed Successfully");
 	}

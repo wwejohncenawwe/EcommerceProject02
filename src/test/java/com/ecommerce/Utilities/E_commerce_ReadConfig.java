@@ -11,7 +11,7 @@ public class E_commerce_ReadConfig  {
 	public File file;
 	public FileInputStream fs;
 	public Properties properties;
-	
+
 	public  E_commerce_ReadConfig() {
 		file=new File("./Configuration/config.properties");
 		try {
@@ -33,6 +33,6 @@ public class E_commerce_ReadConfig  {
 	public String getBrowserLocation() {
 		String browserLocation=properties.getProperty("ChromeLocation");
 		return browserLocation;
-		
+
 	}
 }

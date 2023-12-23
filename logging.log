@@ -1,42 +1,504 @@
-2023-12-14 12:11:45 INFO  E_commerce_BaseClass:54 - Browser Ready To Launch
-  2023-12-14 12:11:54 INFO  E_commerce_BaseClass:65 - Chrome Browser Launched Successfully
-  2023-12-14 12:11:54 INFO  E_commerce_BaseClass:66 - Browser Going To Maximize
-  2023-12-14 12:11:54 INFO  E_commerce_BaseClass:69 - Browser Going To Hit Url
-  2023-12-14 12:11:59 INFO  E_commerce_BaseClass:71 - URL Hit Success
-  2023-12-14 12:12:00 INFO  E_commerce_BaseClass:28 - Closing Loginpage
-  2023-12-14 12:12:00 INFO  E_commerce_BaseClass:30 - Searching on SearchBox
-  2023-12-14 12:12:07 INFO  E_commerce_BaseClass:32 - Search Completed
-  2023-12-14 12:12:07 INFO  E_commerce_BaseClass:34 - search brand selected done
-  2023-12-14 12:12:07 INFO  E_commerce_BaseClass:36 - rating selected
-  2023-12-14 12:12:07 INFO  E_commerce_BaseClass:38 - mobile link clicked
-  2023-12-14 12:12:08 INFO  E_commerce_BaseClass:236 - Browser Closed Successfully
-  2023-12-14 12:14:32 INFO  E_commerce_BaseClass:54 - Browser Ready To Launch
-  2023-12-14 12:14:37 INFO  E_commerce_BaseClass:65 - Chrome Browser Launched Successfully
-  2023-12-14 12:14:37 INFO  E_commerce_BaseClass:66 - Browser Going To Maximize
-  2023-12-14 12:14:38 INFO  E_commerce_BaseClass:69 - Browser Going To Hit Url
-  2023-12-14 12:14:43 INFO  E_commerce_BaseClass:71 - URL Hit Success
-  2023-12-14 12:14:45 INFO  E_commerce_BaseClass:28 - Closing Loginpage
-  2023-12-14 12:14:46 INFO  E_commerce_BaseClass:30 - Searching on SearchBox
-  2023-12-14 12:14:52 INFO  E_commerce_BaseClass:32 - Search Completed
-  2023-12-14 12:14:54 INFO  E_commerce_BaseClass:35 - search brand selected done
-  2023-12-14 12:14:56 INFO  E_commerce_BaseClass:38 - rating selected
-  2023-12-14 12:14:58 INFO  E_commerce_BaseClass:41 - mobile link clicked
-  2023-12-14 12:14:59 INFO  E_commerce_BaseClass:236 - Browser Closed Successfully
-  2023-12-17 17:11:12 INFO  E_commerce_BaseClass:54 - Browser Ready To Launch
-  2023-12-17 17:11:20 INFO  E_commerce_BaseClass:65 - Chrome Browser Launched Successfully
-  2023-12-17 17:11:20 INFO  E_commerce_BaseClass:66 - Browser Going To Maximize
-  2023-12-17 17:11:21 INFO  E_commerce_BaseClass:69 - Browser Going To Hit Url
-  2023-12-17 17:11:26 INFO  E_commerce_BaseClass:71 - URL Hit Success
-  2023-12-17 17:11:27 INFO  E_commerce_BaseClass:28 - Closing Loginpage
-  2023-12-17 17:11:28 INFO  E_commerce_BaseClass:30 - Searching on SearchBox
-  2023-12-17 17:11:35 INFO  E_commerce_BaseClass:32 - Search Completed
-  2023-12-17 17:11:37 INFO  E_commerce_BaseClass:35 - search brand selected done
-  2023-12-17 17:11:39 INFO  E_commerce_BaseClass:38 - rating selected
-  2023-12-17 17:11:41 INFO  E_commerce_BaseClass:41 - mobile link clicked
-  2023-12-17 17:11:42 INFO  E_commerce_BaseClass:236 - Browser Closed Successfully
-  2023-12-19 12:10:47 INFO  E_commerce_BaseClass:54 - Browser Ready To Launch
-  2023-12-19 12:11:00 INFO  E_commerce_BaseClass:65 - Chrome Browser Launched Successfully
-  2023-12-19 12:11:00 INFO  E_commerce_BaseClass:66 - Browser Going To Maximize
-  2023-12-19 12:11:00 INFO  E_commerce_BaseClass:69 - Browser Going To Hit Url
-  2023-12-19 12:11:02 INFO  E_commerce_BaseClass:71 - URL Hit Success
+2023-12-22 13:28:41 INFO  E_commerce_BaseClass:54 - Browser Ready To Launch
+  2023-12-22 13:28:47 INFO  E_commerce_BaseClass:65 - Chrome Browser Launched
+  2023-12-22 13:28:47 INFO  E_commerce_BaseClass:66 - Browser Maximized
+  2023-12-22 13:28:47 INFO  E_commerce_BaseClass:69 - Browser Going To Hit Url
+  2023-12-22 13:28:53 INFO  E_commerce_BaseClass:71 - URL Hit Success
+  2023-12-22 13:29:00 INFO  E_commerce_BaseClass:13 - Search POJO is NULL So Object Is Created
+  2023-12-22 13:29:00 INFO  E_commerce_BaseClass:41 - Login Option Closed
+  2023-12-22 13:29:00 INFO  E_commerce_BaseClass:13 - Search POJO is NULL So Object Is Created
+  2023-12-22 13:29:05 INFO  E_commerce_BaseClass:48 - Search Box Value Entered
+  2023-12-22 13:29:05 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:29:05 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:29:08 INFO  E_commerce_BaseClass:66 - Search Brand Selected
+  2023-12-22 13:29:08 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:29:10 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:29:11 INFO  E_commerce_BaseClass:79 - Search Rating Selected
+  2023-12-22 13:29:11 INFO  E_commerce_BaseClass:23 - MobileSelect POJO is NULL So Object Is Created
+  2023-12-22 13:29:12 INFO  E_commerce_BaseClass:43 - Mobile Price Filter Selected
+  2023-12-22 13:29:14 INFO  E_commerce_BaseClass:23 - MobileSelect POJO is NULL So Object Is Created
+  2023-12-22 13:29:15 INFO  E_commerce_BaseClass:78 - Mobile Selected :  Add to Compare
+APPLE iPhone 14 Plus (Midnight, 128 GB)
+4.656,240 Ratings & 3,297 Reviews
+128 GB ROM
+17.02 cm (6.7 inch) Super Retina XDR Display
+12MP + 12MP | 12MP Front Camera
+A15 Bionic Chip, 6 Core Processor Processor
+1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories
+₹67,999
+₹79,90014% off
+  2023-12-22 13:29:15 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:29:21 INFO  E_commerce_BaseClass:117 - Add To Cart Clicked
+  2023-12-22 13:29:21 INFO  E_commerce_BaseClass:119 - Backed To Home Page
+  2023-12-22 13:29:21 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:29:22 INFO  E_commerce_BaseClass:126 - Selected Cart List Menu
+  2023-12-22 13:29:22 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:29:33 INFO  E_commerce_BaseClass:133 - Place Order Is Clicked
+  2023-12-22 13:29:33 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:29:35 INFO  E_commerce_BaseClass:140 - Entered The Valid MailId
+  2023-12-22 13:29:35 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:29:35 INFO  E_commerce_BaseClass:147 - Email Verify Continue Button Clicked
+  2023-12-22 13:29:35 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:29:36 INFO  E_commerce_BaseClass:154 - Entered The Valid Mobile Number
+  2023-12-22 13:29:36 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:29:36 INFO  E_commerce_BaseClass:161 - Mobile No Verify Continue Button Clicked
+  2023-12-22 13:29:39 INFO  E_commerce_BaseClass:214 - Browser Closed Successfully
+  2023-12-22 13:30:37 INFO  E_commerce_BaseClass:54 - Browser Ready To Launch
+  2023-12-22 13:30:43 INFO  E_commerce_BaseClass:65 - Chrome Browser Launched
+  2023-12-22 13:30:43 INFO  E_commerce_BaseClass:66 - Browser Maximized
+  2023-12-22 13:30:43 INFO  E_commerce_BaseClass:69 - Browser Going To Hit Url
+  2023-12-22 13:30:49 INFO  E_commerce_BaseClass:71 - URL Hit Success
+  2023-12-22 13:30:54 INFO  E_commerce_BaseClass:13 - Search POJO is NULL So Object Is Created
+  2023-12-22 13:30:55 INFO  E_commerce_BaseClass:41 - Login Option Closed
+  2023-12-22 13:30:55 INFO  E_commerce_BaseClass:13 - Search POJO is NULL So Object Is Created
+  2023-12-22 13:31:01 INFO  E_commerce_BaseClass:48 - Search Box Value Entered
+  2023-12-22 13:31:01 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:31:02 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:31:03 INFO  E_commerce_BaseClass:66 - Search Brand Selected
+  2023-12-22 13:31:03 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:31:04 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:31:06 INFO  E_commerce_BaseClass:79 - Search Rating Selected
+  2023-12-22 13:31:06 INFO  E_commerce_BaseClass:23 - MobileSelect POJO is NULL So Object Is Created
+  2023-12-22 13:31:06 INFO  E_commerce_BaseClass:43 - Mobile Price Filter Selected
+  2023-12-22 13:31:08 INFO  E_commerce_BaseClass:23 - MobileSelect POJO is NULL So Object Is Created
+  2023-12-22 13:31:09 INFO  E_commerce_BaseClass:78 - Mobile Selected :  Add to Compare
+APPLE iPhone 14 Plus (Midnight, 128 GB)
+4.656,240 Ratings & 3,297 Reviews
+128 GB ROM
+17.02 cm (6.7 inch) Super Retina XDR Display
+12MP + 12MP | 12MP Front Camera
+A15 Bionic Chip, 6 Core Processor Processor
+1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories
+₹67,999
+₹79,90014% off
+  2023-12-22 13:31:09 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:31:13 INFO  E_commerce_BaseClass:117 - Add To Cart Clicked
+  2023-12-22 13:31:14 INFO  E_commerce_BaseClass:119 - Backed To Home Page
+  2023-12-22 13:31:14 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:31:15 INFO  E_commerce_BaseClass:126 - Selected Cart List Menu
+  2023-12-22 13:31:15 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:31:20 INFO  E_commerce_BaseClass:133 - Place Order Is Clicked
+  2023-12-22 13:31:20 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:31:21 INFO  E_commerce_BaseClass:140 - Entered The Valid MailId
+  2023-12-22 13:31:21 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:31:21 INFO  E_commerce_BaseClass:147 - Email Verify Continue Button Clicked
+  2023-12-22 13:31:21 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:31:22 INFO  E_commerce_BaseClass:154 - Entered The Valid Mobile Number
+  2023-12-22 13:31:22 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:31:22 INFO  E_commerce_BaseClass:161 - Mobile No Verify Continue Button Clicked
+  2023-12-22 13:31:22 INFO  E_commerce_BaseClass:164 - Sharing OTP
+  2023-12-22 13:31:22 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:31:25 INFO  E_commerce_BaseClass:214 - Browser Closed Successfully
+  2023-12-22 13:44:25 INFO  E_commerce_BaseClass:54 - Browser Ready To Launch
+  2023-12-22 13:44:35 INFO  E_commerce_BaseClass:65 - Chrome Browser Launched
+  2023-12-22 13:44:35 INFO  E_commerce_BaseClass:66 - Browser Maximized
+  2023-12-22 13:44:35 INFO  E_commerce_BaseClass:69 - Browser Going To Hit Url
+  2023-12-22 13:44:41 INFO  E_commerce_BaseClass:71 - URL Hit Success
+  2023-12-22 13:44:47 INFO  E_commerce_BaseClass:13 - Search POJO is NULL So Object Is Created
+  2023-12-22 13:44:48 INFO  E_commerce_BaseClass:41 - Login Option Closed
+  2023-12-22 13:44:48 INFO  E_commerce_BaseClass:13 - Search POJO is NULL So Object Is Created
+  2023-12-22 13:44:54 INFO  E_commerce_BaseClass:48 - Search Box Value Entered
+  2023-12-22 13:44:54 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:44:54 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:44:57 INFO  E_commerce_BaseClass:66 - Search Brand Selected
+  2023-12-22 13:44:57 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:44:58 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:44:59 INFO  E_commerce_BaseClass:79 - Search Rating Selected
+  2023-12-22 13:44:59 INFO  E_commerce_BaseClass:23 - MobileSelect POJO is NULL So Object Is Created
+  2023-12-22 13:45:01 INFO  E_commerce_BaseClass:43 - Mobile Price Filter Selected
+  2023-12-22 13:45:03 INFO  E_commerce_BaseClass:23 - MobileSelect POJO is NULL So Object Is Created
+  2023-12-22 13:45:04 INFO  E_commerce_BaseClass:78 - Mobile Selected :  Add to Compare
+APPLE iPhone 14 Plus (Midnight, 128 GB)
+4.656,240 Ratings & 3,297 Reviews
+128 GB ROM
+17.02 cm (6.7 inch) Super Retina XDR Display
+12MP + 12MP | 12MP Front Camera
+A15 Bionic Chip, 6 Core Processor Processor
+1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories
+₹67,999
+₹79,90014% off
+  2023-12-22 13:45:04 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:45:10 INFO  E_commerce_BaseClass:116 - Add To Cart Clicked
+  2023-12-22 13:45:10 INFO  E_commerce_BaseClass:118 - Backed To Home Page
+  2023-12-22 13:45:10 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:45:11 INFO  E_commerce_BaseClass:125 - Selected Cart List Menu
+  2023-12-22 13:45:11 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:45:17 INFO  E_commerce_BaseClass:132 - Place Order Is Clicked
+  2023-12-22 13:45:17 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:45:17 INFO  E_commerce_BaseClass:139 - Entered The Valid MailId
+  2023-12-22 13:45:17 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:45:17 INFO  E_commerce_BaseClass:146 - Email Verify Continue Button Clicked
+  2023-12-22 13:45:17 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:45:18 INFO  E_commerce_BaseClass:153 - Entered The Valid Mobile Number
+  2023-12-22 13:45:18 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:45:18 INFO  E_commerce_BaseClass:160 - Mobile No Verify Continue Button Clicked
+  2023-12-22 13:45:18 INFO  E_commerce_BaseClass:163 - Sharing OTP
+  2023-12-22 13:45:18 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:45:21 INFO  E_commerce_BaseClass:214 - Browser Closed Successfully
+  2023-12-22 13:47:28 INFO  E_commerce_BaseClass:54 - Browser Ready To Launch
+  2023-12-22 13:47:35 INFO  E_commerce_BaseClass:65 - Chrome Browser Launched
+  2023-12-22 13:47:35 INFO  E_commerce_BaseClass:66 - Browser Maximized
+  2023-12-22 13:47:35 INFO  E_commerce_BaseClass:69 - Browser Going To Hit Url
+  2023-12-22 13:47:41 INFO  E_commerce_BaseClass:71 - URL Hit Success
+  2023-12-22 13:47:46 INFO  E_commerce_BaseClass:13 - Search POJO is NULL So Object Is Created
+  2023-12-22 13:47:47 INFO  E_commerce_BaseClass:41 - Login Option Closed
+  2023-12-22 13:47:47 INFO  E_commerce_BaseClass:13 - Search POJO is NULL So Object Is Created
+  2023-12-22 13:47:52 INFO  E_commerce_BaseClass:48 - Search Box Value Entered
+  2023-12-22 13:47:52 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:47:52 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:47:53 INFO  E_commerce_BaseClass:66 - Search Brand Selected
+  2023-12-22 13:47:53 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:47:55 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:47:57 INFO  E_commerce_BaseClass:79 - Search Rating Selected
+  2023-12-22 13:47:57 INFO  E_commerce_BaseClass:23 - MobileSelect POJO is NULL So Object Is Created
+  2023-12-22 13:47:58 INFO  E_commerce_BaseClass:43 - Mobile Price Filter Selected
+  2023-12-22 13:48:00 INFO  E_commerce_BaseClass:23 - MobileSelect POJO is NULL So Object Is Created
+  2023-12-22 13:48:01 INFO  E_commerce_BaseClass:78 - Mobile Selected :  Add to Compare
+APPLE iPhone 15 Plus (Pink, 128 GB)
+4.7992 Ratings & 116 Reviews
+128 GB ROM
+17.02 cm (6.7 inch) Super Retina XDR Display
+48MP + 12MP | 12MP Front Camera
+A16 Bionic Chip, 6 Core Processor Processor
+1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories
+₹87,900
+₹89,9002% off
+  2023-12-22 13:48:01 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:48:05 INFO  E_commerce_BaseClass:116 - Add To Cart Clicked
+  2023-12-22 13:48:05 INFO  E_commerce_BaseClass:118 - Backed To Home Page
+  2023-12-22 13:48:05 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:48:06 INFO  E_commerce_BaseClass:125 - Selected Cart List Menu
+  2023-12-22 13:48:06 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:48:11 INFO  E_commerce_BaseClass:132 - Place Order Is Clicked
+  2023-12-22 13:48:11 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:48:12 INFO  E_commerce_BaseClass:139 - Entered The Valid MailId
+  2023-12-22 13:48:12 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:48:12 INFO  E_commerce_BaseClass:146 - Email Verify Continue Button Clicked
+  2023-12-22 13:48:12 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:48:13 INFO  E_commerce_BaseClass:153 - Entered The Valid Mobile Number
+  2023-12-22 13:48:13 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:48:13 INFO  E_commerce_BaseClass:160 - Mobile No Verify Continue Button Clicked
+  2023-12-22 13:48:13 INFO  E_commerce_BaseClass:163 - Sharing OTP
+  2023-12-22 13:48:15 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:48:17 INFO  E_commerce_BaseClass:214 - Browser Closed Successfully
+  2023-12-22 13:50:52 INFO  E_commerce_BaseClass:54 - Browser Ready To Launch
+  2023-12-22 13:50:58 INFO  E_commerce_BaseClass:65 - Chrome Browser Launched
+  2023-12-22 13:50:58 INFO  E_commerce_BaseClass:66 - Browser Maximized
+  2023-12-22 13:50:58 INFO  E_commerce_BaseClass:69 - Browser Going To Hit Url
+  2023-12-22 13:51:04 INFO  E_commerce_BaseClass:71 - URL Hit Success
+  2023-12-22 13:51:09 INFO  E_commerce_BaseClass:13 - Search POJO is NULL So Object Is Created
+  2023-12-22 13:51:09 INFO  E_commerce_BaseClass:41 - Login Option Closed
+  2023-12-22 13:51:09 INFO  E_commerce_BaseClass:13 - Search POJO is NULL So Object Is Created
+  2023-12-22 13:51:16 INFO  E_commerce_BaseClass:48 - Search Box Value Entered
+  2023-12-22 13:51:16 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:51:17 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:51:18 INFO  E_commerce_BaseClass:66 - Search Brand Selected
+  2023-12-22 13:51:18 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:51:20 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:51:21 INFO  E_commerce_BaseClass:79 - Search Rating Selected
+  2023-12-22 13:51:21 INFO  E_commerce_BaseClass:23 - MobileSelect POJO is NULL So Object Is Created
+  2023-12-22 13:51:22 INFO  E_commerce_BaseClass:43 - Mobile Price Filter Selected
+  2023-12-22 13:51:24 INFO  E_commerce_BaseClass:23 - MobileSelect POJO is NULL So Object Is Created
+  2023-12-22 13:51:25 INFO  E_commerce_BaseClass:78 - Mobile Selected :  Add to Compare
+APPLE iPhone 15 Plus (Blue, 512 GB)
+4.7992 Ratings & 116 Reviews
+512 GB ROM
+17.02 cm (6.7 inch) Super Retina XDR Display
+48MP + 12MP | 12MP Front Camera
+A16 Bionic Chip, 6 Core Processor Processor
+1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories
+₹1,17,900
+₹1,19,9001% off
+  2023-12-22 13:51:25 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:51:30 INFO  E_commerce_BaseClass:116 - Add To Cart Clicked
+  2023-12-22 13:51:30 INFO  E_commerce_BaseClass:118 - Backed To Home Page
+  2023-12-22 13:51:30 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:51:31 INFO  E_commerce_BaseClass:125 - Selected Cart List Menu
+  2023-12-22 13:51:31 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:51:42 INFO  E_commerce_BaseClass:132 - Place Order Is Clicked
+  2023-12-22 13:51:42 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:51:42 INFO  E_commerce_BaseClass:139 - Entered The Valid MailId
+  2023-12-22 13:51:42 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:51:43 INFO  E_commerce_BaseClass:146 - Email Verify Continue Button Clicked
+  2023-12-22 13:51:43 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:51:43 INFO  E_commerce_BaseClass:153 - Entered The Valid Mobile Number
+  2023-12-22 13:51:43 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:51:44 INFO  E_commerce_BaseClass:160 - Mobile No Verify Continue Button Clicked
+  2023-12-22 13:51:44 INFO  E_commerce_BaseClass:163 - Sharing OTP
+  2023-12-22 13:51:44 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:51:46 INFO  E_commerce_BaseClass:214 - Browser Closed Successfully
+  2023-12-22 13:56:00 INFO  E_commerce_BaseClass:54 - Browser Ready To Launch
+  2023-12-22 13:56:06 INFO  E_commerce_BaseClass:65 - Chrome Browser Launched
+  2023-12-22 13:56:06 INFO  E_commerce_BaseClass:66 - Browser Maximized
+  2023-12-22 13:56:07 INFO  E_commerce_BaseClass:69 - Browser Going To Hit Url
+  2023-12-22 13:56:12 INFO  E_commerce_BaseClass:71 - URL Hit Success
+  2023-12-22 13:56:17 INFO  E_commerce_BaseClass:13 - Search POJO is NULL So Object Is Created
+  2023-12-22 13:56:18 INFO  E_commerce_BaseClass:41 - Login Option Closed
+  2023-12-22 13:56:18 INFO  E_commerce_BaseClass:13 - Search POJO is NULL So Object Is Created
+  2023-12-22 13:56:25 INFO  E_commerce_BaseClass:48 - Search Box Value Entered
+  2023-12-22 13:56:25 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:56:26 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:56:27 INFO  E_commerce_BaseClass:66 - Search Brand Selected
+  2023-12-22 13:56:27 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:56:28 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:56:29 INFO  E_commerce_BaseClass:79 - Search Rating Selected
+  2023-12-22 13:56:29 INFO  E_commerce_BaseClass:23 - MobileSelect POJO is NULL So Object Is Created
+  2023-12-22 13:56:31 INFO  E_commerce_BaseClass:43 - Mobile Price Filter Selected
+  2023-12-22 13:56:33 INFO  E_commerce_BaseClass:23 - MobileSelect POJO is NULL So Object Is Created
+  2023-12-22 13:56:33 INFO  E_commerce_BaseClass:78 - Mobile Selected :  Add to Compare
+APPLE iPhone 14 (Starlight, 128 GB)
+4.62,52,614 Ratings & 9,742 Reviews
+128 GB ROM
+15.49 cm (6.1 inch) Super Retina XDR Display
+12MP + 12MP | 12MP Front Camera
+A15 Bionic Chip, 6 Core Processor Processor
+1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories
+₹59,999
+₹69,90014% off
+  2023-12-22 13:56:33 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:56:37 INFO  E_commerce_BaseClass:116 - Add To Cart Clicked
+  2023-12-22 13:56:38 INFO  E_commerce_BaseClass:118 - Backed To Home Page
+  2023-12-22 13:56:38 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:56:38 INFO  E_commerce_BaseClass:125 - Selected Cart List Menu
+  2023-12-22 13:56:38 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:56:44 INFO  E_commerce_BaseClass:132 - Place Order Is Clicked
+  2023-12-22 13:56:44 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:56:44 INFO  E_commerce_BaseClass:139 - Entered The Valid MailId
+  2023-12-22 13:56:44 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:56:44 INFO  E_commerce_BaseClass:146 - Email Verify Continue Button Clicked
+  2023-12-22 13:56:44 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:56:45 INFO  E_commerce_BaseClass:153 - Entered The Valid Mobile Number
+  2023-12-22 13:56:45 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:56:45 INFO  E_commerce_BaseClass:160 - Mobile No Verify Continue Button Clicked
+  2023-12-22 13:56:45 INFO  E_commerce_BaseClass:163 - Sharing OTP
+  2023-12-22 13:56:45 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:56:49 INFO  E_commerce_BaseClass:214 - Browser Closed Successfully
+  2023-12-22 13:57:28 INFO  E_commerce_BaseClass:54 - Browser Ready To Launch
+  2023-12-22 13:57:34 INFO  E_commerce_BaseClass:65 - Chrome Browser Launched
+  2023-12-22 13:57:34 INFO  E_commerce_BaseClass:66 - Browser Maximized
+  2023-12-22 13:57:34 INFO  E_commerce_BaseClass:69 - Browser Going To Hit Url
+  2023-12-22 13:57:40 INFO  E_commerce_BaseClass:71 - URL Hit Success
+  2023-12-22 13:57:45 INFO  E_commerce_BaseClass:13 - Search POJO is NULL So Object Is Created
+  2023-12-22 13:57:46 INFO  E_commerce_BaseClass:41 - Login Option Closed
+  2023-12-22 13:57:46 INFO  E_commerce_BaseClass:13 - Search POJO is NULL So Object Is Created
+  2023-12-22 13:57:51 INFO  E_commerce_BaseClass:48 - Search Box Value Entered
+  2023-12-22 13:57:51 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:57:51 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:57:55 INFO  E_commerce_BaseClass:66 - Search Brand Selected
+  2023-12-22 13:57:55 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:57:56 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 13:57:57 INFO  E_commerce_BaseClass:79 - Search Rating Selected
+  2023-12-22 13:57:57 INFO  E_commerce_BaseClass:23 - MobileSelect POJO is NULL So Object Is Created
+  2023-12-22 13:57:59 INFO  E_commerce_BaseClass:43 - Mobile Price Filter Selected
+  2023-12-22 13:58:01 INFO  E_commerce_BaseClass:23 - MobileSelect POJO is NULL So Object Is Created
+  2023-12-22 13:58:02 INFO  E_commerce_BaseClass:78 - Mobile Selected :  Add to Compare
+APPLE iPhone 15 Plus (Blue, 512 GB)
+4.7992 Ratings & 116 Reviews
+512 GB ROM
+17.02 cm (6.7 inch) Super Retina XDR Display
+48MP + 12MP | 12MP Front Camera
+A16 Bionic Chip, 6 Core Processor Processor
+1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories
+₹1,17,900
+₹1,19,9001% off
+  2023-12-22 13:58:02 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:58:10 INFO  E_commerce_BaseClass:116 - Add To Cart Clicked
+  2023-12-22 13:58:10 INFO  E_commerce_BaseClass:118 - Backed To Home Page
+  2023-12-22 13:58:10 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:58:11 INFO  E_commerce_BaseClass:125 - Selected Cart List Menu
+  2023-12-22 13:58:11 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:58:19 INFO  E_commerce_BaseClass:132 - Place Order Is Clicked
+  2023-12-22 13:58:19 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:58:19 INFO  E_commerce_BaseClass:139 - Entered The Valid MailId
+  2023-12-22 13:58:19 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:58:20 INFO  E_commerce_BaseClass:146 - Email Verify Continue Button Clicked
+  2023-12-22 13:58:20 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:58:20 INFO  E_commerce_BaseClass:153 - Entered The Valid Mobile Number
+  2023-12-22 13:58:20 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:58:20 INFO  E_commerce_BaseClass:160 - Mobile No Verify Continue Button Clicked
+  2023-12-22 13:58:20 INFO  E_commerce_BaseClass:163 - Sharing OTP
+  2023-12-22 13:58:20 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 13:58:25 INFO  E_commerce_BaseClass:214 - Browser Closed Successfully
+  2023-12-22 14:02:48 INFO  E_commerce_BaseClass:54 - Browser Ready To Launch
+  2023-12-22 14:02:54 INFO  E_commerce_BaseClass:65 - Chrome Browser Launched
+  2023-12-22 14:02:54 INFO  E_commerce_BaseClass:66 - Browser Maximized
+  2023-12-22 14:02:55 INFO  E_commerce_BaseClass:69 - Browser Going To Hit Url
+  2023-12-22 14:03:00 INFO  E_commerce_BaseClass:71 - URL Hit Success
+  2023-12-22 14:03:06 INFO  E_commerce_BaseClass:13 - Search POJO is NULL So Object Is Created
+  2023-12-22 14:03:06 INFO  E_commerce_BaseClass:41 - Login Option Closed
+  2023-12-22 14:03:06 INFO  E_commerce_BaseClass:13 - Search POJO is NULL So Object Is Created
+  2023-12-22 14:03:14 INFO  E_commerce_BaseClass:48 - Search Box Value Entered
+  2023-12-22 14:03:14 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 14:03:14 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 14:03:15 INFO  E_commerce_BaseClass:66 - Search Brand Selected
+  2023-12-22 14:03:15 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 14:03:16 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 14:03:17 INFO  E_commerce_BaseClass:79 - Search Rating Selected
+  2023-12-22 14:03:17 INFO  E_commerce_BaseClass:23 - MobileSelect POJO is NULL So Object Is Created
+  2023-12-22 14:03:19 INFO  E_commerce_BaseClass:43 - Mobile Price Filter Selected
+  2023-12-22 14:03:21 INFO  E_commerce_BaseClass:23 - MobileSelect POJO is NULL So Object Is Created
+  2023-12-22 14:03:21 INFO  E_commerce_BaseClass:78 - Mobile Selected :  Add to Compare
+APPLE iPhone 14 (Starlight, 128 GB)
+4.62,52,614 Ratings & 9,742 Reviews
+128 GB ROM
+15.49 cm (6.1 inch) Super Retina XDR Display
+12MP + 12MP | 12MP Front Camera
+A15 Bionic Chip, 6 Core Processor Processor
+1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories
+₹59,999
+₹69,90014% off
+  2023-12-22 14:03:21 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:03:26 INFO  E_commerce_BaseClass:114 - Add To Cart Clicked
+  2023-12-22 14:03:26 INFO  E_commerce_BaseClass:116 - Backed To Home Page
+  2023-12-22 14:03:26 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:03:26 INFO  E_commerce_BaseClass:123 - Selected Cart List Menu
+  2023-12-22 14:03:26 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:03:32 INFO  E_commerce_BaseClass:130 - Place Order Is Clicked
+  2023-12-22 14:03:32 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:03:33 INFO  E_commerce_BaseClass:137 - Entered The Valid MailId
+  2023-12-22 14:03:33 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:03:33 INFO  E_commerce_BaseClass:144 - Email Verify Continue Button Clicked
+  2023-12-22 14:03:33 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:03:33 INFO  E_commerce_BaseClass:151 - Entered The Valid Mobile Number
+  2023-12-22 14:03:33 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:03:34 INFO  E_commerce_BaseClass:158 - Mobile No Verify Continue Button Clicked
+  2023-12-22 14:03:34 INFO  E_commerce_BaseClass:161 - Sharing OTP
+  2023-12-22 14:03:36 INFO  E_commerce_BaseClass:214 - Browser Closed Successfully
+  2023-12-22 14:12:20 INFO  E_commerce_BaseClass:54 - Browser Ready To Launch
+  2023-12-22 14:12:27 INFO  E_commerce_BaseClass:65 - Chrome Browser Launched
+  2023-12-22 14:12:27 INFO  E_commerce_BaseClass:66 - Browser Maximized
+  2023-12-22 14:12:28 INFO  E_commerce_BaseClass:69 - Browser Going To Hit Url
+  2023-12-22 14:12:34 INFO  E_commerce_BaseClass:71 - URL Hit Success
+  2023-12-22 14:12:40 INFO  E_commerce_BaseClass:13 - Search POJO is NULL So Object Is Created
+  2023-12-22 14:12:41 INFO  E_commerce_BaseClass:41 - Login Option Closed
+  2023-12-22 14:12:41 INFO  E_commerce_BaseClass:13 - Search POJO is NULL So Object Is Created
+  2023-12-22 14:12:46 INFO  E_commerce_BaseClass:48 - Search Box Value Entered
+  2023-12-22 14:12:46 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 14:12:46 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 14:12:47 INFO  E_commerce_BaseClass:66 - Search Brand Selected
+  2023-12-22 14:12:47 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 14:12:49 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 14:12:50 INFO  E_commerce_BaseClass:79 - Search Rating Selected
+  2023-12-22 14:12:50 INFO  E_commerce_BaseClass:23 - MobileSelect POJO is NULL So Object Is Created
+  2023-12-22 14:12:52 INFO  E_commerce_BaseClass:43 - Mobile Price Filter Selected
+  2023-12-22 14:12:54 INFO  E_commerce_BaseClass:23 - MobileSelect POJO is NULL So Object Is Created
+  2023-12-22 14:12:55 INFO  E_commerce_BaseClass:78 - Mobile Selected :  Add to Compare
+APPLE iPhone 15 Plus (Blue, 512 GB)
+4.7992 Ratings & 116 Reviews
+512 GB ROM
+17.02 cm (6.7 inch) Super Retina XDR Display
+48MP + 12MP | 12MP Front Camera
+A16 Bionic Chip, 6 Core Processor Processor
+1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories
+₹1,17,900
+₹1,19,9001% off
+  2023-12-22 14:12:55 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:13:00 INFO  E_commerce_BaseClass:114 - Add To Cart Clicked
+  2023-12-22 14:13:00 INFO  E_commerce_BaseClass:116 - Backed To Home Page
+  2023-12-22 14:13:00 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:13:01 INFO  E_commerce_BaseClass:123 - Selected Cart List Menu
+  2023-12-22 14:13:01 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:13:07 INFO  E_commerce_BaseClass:130 - Place Order Is Clicked
+  2023-12-22 14:13:07 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:13:08 INFO  E_commerce_BaseClass:137 - Entered The Valid MailId
+  2023-12-22 14:13:08 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:13:08 INFO  E_commerce_BaseClass:144 - Email Verify Continue Button Clicked
+  2023-12-22 14:13:08 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:13:08 INFO  E_commerce_BaseClass:151 - Entered The Valid Mobile Number
+  2023-12-22 14:13:08 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:13:09 INFO  E_commerce_BaseClass:158 - Mobile No Verify Continue Button Clicked
+  2023-12-22 14:13:09 INFO  E_commerce_BaseClass:161 - Sharing OTP
+  2023-12-22 14:13:09 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:13:14 INFO  E_commerce_BaseClass:214 - Browser Closed Successfully
+  2023-12-22 14:15:28 INFO  E_commerce_BaseClass:54 - Browser Ready To Launch
+  2023-12-22 14:15:38 INFO  E_commerce_BaseClass:65 - Chrome Browser Launched
+  2023-12-22 14:15:38 INFO  E_commerce_BaseClass:66 - Browser Maximized
+  2023-12-22 14:15:38 INFO  E_commerce_BaseClass:69 - Browser Going To Hit Url
+  2023-12-22 14:15:44 INFO  E_commerce_BaseClass:71 - URL Hit Success
+  2023-12-22 14:15:49 INFO  E_commerce_BaseClass:13 - Search POJO is NULL So Object Is Created
+  2023-12-22 14:15:50 INFO  E_commerce_BaseClass:41 - Login Option Closed
+  2023-12-22 14:15:50 INFO  E_commerce_BaseClass:13 - Search POJO is NULL So Object Is Created
+  2023-12-22 14:15:56 INFO  E_commerce_BaseClass:48 - Search Box Value Entered
+  2023-12-22 14:15:56 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 14:15:58 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 14:15:59 INFO  E_commerce_BaseClass:66 - Search Brand Selected
+  2023-12-22 14:15:59 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 14:16:01 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 14:16:02 INFO  E_commerce_BaseClass:79 - Search Rating Selected
+  2023-12-22 14:16:02 INFO  E_commerce_BaseClass:23 - MobileSelect POJO is NULL So Object Is Created
+  2023-12-22 14:16:03 INFO  E_commerce_BaseClass:43 - Mobile Price Filter Selected
+  2023-12-22 14:16:05 INFO  E_commerce_BaseClass:23 - MobileSelect POJO is NULL So Object Is Created
+  2023-12-22 14:16:06 INFO  E_commerce_BaseClass:78 - Mobile Selected :  Add to Compare
+APPLE iPhone 14 Plus (Yellow, 512 GB)
+4.656,240 Ratings & 3,297 Reviews
+512 GB ROM
+17.02 cm (6.7 inch) Super Retina XDR Display
+12MP + 12MP | 12MP Front Camera
+A15 Bionic Chip, 6 Core Processor Processor
+1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories
+₹99,990
+₹1,09,9009% off
+  2023-12-22 14:16:06 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:16:13 INFO  E_commerce_BaseClass:114 - Add To Cart Clicked
+  2023-12-22 14:16:13 INFO  E_commerce_BaseClass:116 - Backed To Home Page
+  2023-12-22 14:16:13 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:16:13 INFO  E_commerce_BaseClass:123 - Selected Cart List Menu
+  2023-12-22 14:16:13 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:16:18 INFO  E_commerce_BaseClass:130 - Place Order Is Clicked
+  2023-12-22 14:16:18 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:16:20 INFO  E_commerce_BaseClass:137 - Entered The Valid MailId
+  2023-12-22 14:16:20 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:16:20 INFO  E_commerce_BaseClass:144 - Email Verify Continue Button Clicked
+  2023-12-22 14:16:20 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:16:21 INFO  E_commerce_BaseClass:151 - Entered The Valid Mobile Number
+  2023-12-22 14:16:21 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:16:21 INFO  E_commerce_BaseClass:158 - Mobile No Verify Continue Button Clicked
+  2023-12-22 14:16:22 INFO  E_commerce_BaseClass:161 - Sharing OTP
+  2023-12-22 14:16:22 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:16:26 INFO  E_commerce_BaseClass:214 - Browser Closed Successfully
+  2023-12-22 14:18:56 INFO  E_commerce_BaseClass:54 - Browser Ready To Launch
+  2023-12-22 14:19:02 INFO  E_commerce_BaseClass:65 - Chrome Browser Launched
+  2023-12-22 14:19:02 INFO  E_commerce_BaseClass:66 - Browser Maximized
+  2023-12-22 14:19:02 INFO  E_commerce_BaseClass:69 - Browser Going To Hit Url
+  2023-12-22 14:19:08 INFO  E_commerce_BaseClass:71 - URL Hit Success
+  2023-12-22 14:19:14 INFO  E_commerce_BaseClass:13 - Search POJO is NULL So Object Is Created
+  2023-12-22 14:19:15 INFO  E_commerce_BaseClass:41 - Login Option Closed
+  2023-12-22 14:19:15 INFO  E_commerce_BaseClass:13 - Search POJO is NULL So Object Is Created
+  2023-12-22 14:19:22 INFO  E_commerce_BaseClass:48 - Search Box Value Entered
+  2023-12-22 14:19:22 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 14:19:22 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 14:19:24 INFO  E_commerce_BaseClass:66 - Search Brand Selected
+  2023-12-22 14:19:24 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 14:19:25 INFO  E_commerce_BaseClass:18 - Filter POJO is NULL So Object Is Created
+  2023-12-22 14:19:26 INFO  E_commerce_BaseClass:79 - Search Rating Selected
+  2023-12-22 14:19:26 INFO  E_commerce_BaseClass:23 - MobileSelect POJO is NULL So Object Is Created
+  2023-12-22 14:19:27 INFO  E_commerce_BaseClass:43 - Mobile Price Filter Selected
+  2023-12-22 14:19:29 INFO  E_commerce_BaseClass:23 - MobileSelect POJO is NULL So Object Is Created
+  2023-12-22 14:19:30 INFO  E_commerce_BaseClass:78 - Mobile Selected :  Add to Compare
+APPLE iPhone 15 Pro Max (White Titanium, 1 TB)
+4.7256 Ratings & 22 Reviews
+1 TB ROM
+17.02 cm (6.7 inch) Super Retina XDR Display
+48MP + 12MP + 12MP | 12MP Front Camera
+A17 Pro Chip, 6 Core Processor Processor
+1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories
+₹1,96,900
+₹1,99,9001% off
+  2023-12-22 14:19:30 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:19:35 INFO  E_commerce_BaseClass:114 - Add To Cart Clicked
+  2023-12-22 14:19:35 INFO  E_commerce_BaseClass:116 - Backed To Home Page
+  2023-12-22 14:19:35 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:19:36 INFO  E_commerce_BaseClass:123 - Selected Cart List Menu
+  2023-12-22 14:19:36 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:19:42 INFO  E_commerce_BaseClass:130 - Place Order Is Clicked
+  2023-12-22 14:19:42 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:19:42 INFO  E_commerce_BaseClass:137 - Entered The Valid MailId
+  2023-12-22 14:19:42 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:19:43 INFO  E_commerce_BaseClass:144 - Email Verify Continue Button Clicked
+  2023-12-22 14:19:43 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:19:43 INFO  E_commerce_BaseClass:151 - Entered The Valid Mobile Number
+  2023-12-22 14:19:43 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:19:43 INFO  E_commerce_BaseClass:158 - Mobile No Verify Continue Button Clicked
+  2023-12-22 14:19:43 INFO  E_commerce_BaseClass:161 - Sharing OTP
+  2023-12-22 14:19:43 INFO  E_commerce_BaseClass:28 - AddToCart POJO is NULL So Object Is Created
+  2023-12-22 14:19:46 INFO  E_commerce_BaseClass:214 - Browser Closed Successfully
   

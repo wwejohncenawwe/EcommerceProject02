@@ -1,39 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-17T11:41:06Z" name="suite" finished-at="2023-12-17T11:41:42Z" duration-ms="36659">
+  <suite started-at="2023-12-22T08:49:08Z" name="Default suite" finished-at="2023-12-22T08:49:44Z" duration-ms="35967">
     <groups>
     </groups>
-    <test started-at="2023-12-17T11:41:06Z" name="test" finished-at="2023-12-17T11:41:42Z" duration-ms="36659">
+    <test started-at="2023-12-22T08:49:08Z" name="Default test" finished-at="2023-12-22T08:49:44Z" duration-ms="35967">
       <class name="com.ecommerce.TestCases.E_commerce_TC01">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ecommerce.TestCases.E_commerce_TC01@3f49e266]" started-at="2023-12-17T11:41:12Z" name="setUp" finished-at="2023-12-17T11:41:26Z" duration-ms="14740" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ecommerce.TestCases.E_commerce_TC01@761e788f]" started-at="2023-12-22T08:48:55Z" name="setUp" finished-at="2023-12-22T08:49:08Z" duration-ms="13178" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[brow]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="SearchModule_TC(java.lang.String)[pri:0, instance:com.ecommerce.TestCases.E_commerce_TC01@3f49e266]" started-at="2023-12-17T11:41:27Z" name="SearchModule_TC" description="test start" data-provider="searchdata" finished-at="2023-12-17T11:41:41Z" duration-ms="14081" status="PASS">
+        <test-method signature="E_commerce_Flipkart_TC(java.lang.String, java.lang.String)[pri:0, instance:com.ecommerce.TestCases.E_commerce_TC01@761e788f]" started-at="2023-12-22T08:49:13Z" name="E_commerce_Flipkart_TC" description="Test Start" data-provider="addtocart" finished-at="2023-12-22T08:49:44Z" duration-ms="30626" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[mobile]]>
+                <![CDATA[emailgmail@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9841457845]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HPLAPTOP', ip: '192.168.29.202', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Mani\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54321}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 68188fe237fc6ba2f1b816b0270db4c4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HPLAPTOP', ip: '192.168.29.202', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Mani\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54321}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 68188fe237fc6ba2f1b816b0270db4c4
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy27.clear(Unknown Source)
+at com.ecommerce.PojoClass.E_Commerce_AddtoCartModule_PojoClass.setOtp(E_Commerce_AddtoCartModule_PojoClass.java:177)
+at com.ecommerce.TestCases.E_commerce_TC01.E_commerce_Flipkart_TC(E_commerce_TC01.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SearchModule_TC -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.TestCases.E_commerce_TC01@3f49e266]" started-at="2023-12-17T11:41:41Z" name="tearDown" finished-at="2023-12-17T11:41:42Z" duration-ms="1334" status="PASS">
+        </test-method> <!-- E_commerce_Flipkart_TC -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.TestCases.E_commerce_TC01@761e788f]" started-at="2023-12-22T08:49:44Z" name="tearDown" finished-at="2023-12-22T08:49:46Z" duration-ms="1257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ecommerce.TestCases.E_commerce_TC01 -->
-    </test> <!-- test -->
-  </suite> <!-- suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
