@@ -9,7 +9,7 @@ public class E_commerce_DataProvider extends E_commerce_BaseClass {
 
 	String[][] Data=null;
 
-	String path="D:\\Eclipse Workspace\\E-Commerce-Project\\src\\test\\java\\com\\ecommerce\\TestData\\TC01.xlsx";
+	String path="D:\\Eclipse Workspace\\New folder\\E-Commerce-Project\\src\\test\\java\\com\\ecommerce\\TestData\\TC01.xlsx";
 
 	@DataProvider(name="addtocart")
 	public String[][] getData1(){

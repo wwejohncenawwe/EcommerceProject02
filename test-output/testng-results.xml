@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-22T08:49:08Z" name="Default suite" finished-at="2023-12-22T08:49:44Z" duration-ms="35967">
+  <suite started-at="2024-01-13T03:59:36Z" name="Default suite" finished-at="2024-01-13T04:00:35Z" duration-ms="58593">
     <groups>
     </groups>
-    <test started-at="2023-12-22T08:49:08Z" name="Default test" finished-at="2023-12-22T08:49:44Z" duration-ms="35967">
+    <test started-at="2024-01-13T03:59:36Z" name="Default test" finished-at="2024-01-13T04:00:35Z" duration-ms="58593">
       <class name="com.ecommerce.TestCases.E_commerce_TC01">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ecommerce.TestCases.E_commerce_TC01@761e788f]" started-at="2023-12-22T08:48:55Z" name="setUp" finished-at="2023-12-22T08:49:08Z" duration-ms="13178" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ecommerce.TestCases.E_commerce_TC01@36bf84e]" started-at="2024-01-13T03:59:40Z" name="setUp" finished-at="2024-01-13T03:59:59Z" duration-ms="19392" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="E_commerce_Flipkart_TC(java.lang.String, java.lang.String)[pri:0, instance:com.ecommerce.TestCases.E_commerce_TC01@761e788f]" started-at="2023-12-22T08:49:13Z" name="E_commerce_Flipkart_TC" description="Test Start" data-provider="addtocart" finished-at="2023-12-22T08:49:44Z" duration-ms="30626" status="FAIL">
+        <test-method signature="E_commerce_Flipkart_TC(java.lang.String, java.lang.String)[pri:0, instance:com.ecommerce.TestCases.E_commerce_TC01@36bf84e]" started-at="2024-01-13T04:00:00Z" name="E_commerce_Flipkart_TC" description="Test Start" data-provider="addtocart" finished-at="2024-01-13T04:00:33Z" duration-ms="33406" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -37,25 +37,24 @@
   (Session info: chrome=109.0.5414.120)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'HPLAPTOP', ip: '192.168.29.202', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '17.0.8.1'
+System info: host: 'HPLAPTOP', ip: '192.168.43.202', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Mani\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54321}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 68188fe237fc6ba2f1b816b0270db4c4]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Mani\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49335}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c43f40add3020e774b053cecac2e0961]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
   (Session info: chrome=109.0.5414.120)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'HPLAPTOP', ip: '192.168.29.202', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '17.0.8.1'
+System info: host: 'HPLAPTOP', ip: '192.168.43.202', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Mani\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54321}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 68188fe237fc6ba2f1b816b0270db4c4
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\Mani\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49335}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c43f40add3020e774b053cecac2e0961
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -63,19 +62,19 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy27.clear(Unknown Source)
-at com.ecommerce.PojoClass.E_Commerce_AddtoCartModule_PojoClass.setOtp(E_Commerce_AddtoCartModule_PojoClass.java:177)
+at com.sun.proxy.$Proxy28.isDisplayed(Unknown Source)
+at com.ecommerce.BaseClass.E_commerce_BaseClass.webelementDisplayed(E_commerce_BaseClass.java:172)
+at com.ecommerce.PojoClass.E_Commerce_AddtoCartModule_PojoClass.setOtp(E_Commerce_AddtoCartModule_PojoClass.java:171)
 at com.ecommerce.TestCases.E_commerce_TC01.E_commerce_Flipkart_TC(E_commerce_TC01.java:59)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
 at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
 at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
@@ -103,7 +102,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- E_commerce_Flipkart_TC -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.TestCases.E_commerce_TC01@761e788f]" started-at="2023-12-22T08:49:44Z" name="tearDown" finished-at="2023-12-22T08:49:46Z" duration-ms="1257" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.TestCases.E_commerce_TC01@36bf84e]" started-at="2024-01-13T04:00:33Z" name="tearDown" finished-at="2024-01-13T04:00:35Z" duration-ms="1208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

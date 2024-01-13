@@ -31,8 +31,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
@@ -47,7 +47,7 @@ public class E_commerce_BaseClass {
 	public String chromeLocation=config.getBrowserLocation();
 
 	@Parameters("browser")
-	@BeforeSuite
+	@BeforeMethod
 	public void setUp(@Optional("brow")String browser) {
 		logger=Logger.getLogger(E_commerce_BaseClass.class);
 		PropertyConfigurator.configure("log4j.properties");
@@ -208,7 +208,7 @@ public class E_commerce_BaseClass {
 		}
 		logger.info("Failed Screenshot Captured Success");
 	}
-	@AfterSuite
+	@AfterMethod
 	public void tearDown() throws InterruptedException {
 		driver.quit();
 		logger.info("Browser Closed Successfully");

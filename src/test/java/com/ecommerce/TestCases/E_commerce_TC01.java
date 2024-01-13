@@ -26,7 +26,7 @@ public class E_commerce_TC01 extends E_commerce_BaseClass {
 	public void E_commerce_Flipkart_TC(String emailid,String phoneno) throws InterruptedException {
 		E_Commerce_PojoClassManager pojo=new E_Commerce_PojoClassManager();
 
-		pojo.getSearch().setLoginClose();
+//		pojo.getSearch().setLoginClose();
 
 		pojo.getSearch().setSearchBox("mobile"+"\n");
 
